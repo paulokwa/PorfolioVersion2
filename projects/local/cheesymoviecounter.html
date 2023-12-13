@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul's Portfolio - Cheesy Movie Line Tracker</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/cheesymoviecounter.css">
+    <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+    <a href="javascript:history.back()">Back</a>
+
+    </header>
+
+
+    <div class="container  
+            border-center down" id="center-text">
+        <h1>Cheesy Movie Scene Counter</h1>
+
+        <h2>Watch a cheesy movie and hit the Extra Cheese button when you see/hear something cheesy</h2>
+
+        <h1 id="count-el">0</h1>
+        
+        <button id="increment-btn" onclick="increment()">Extra Cheese!</button>
+        <button id="save-btn" onclick="save()">Store that Cheese</button>
+        <p id="save-el">Cheese Count: </p>
+
+    </div>
+
+
+    <script src="js/bootstrap/bootstrap.js"></script>
+    <script src="/assets/js/cheesymoviecounter.js"></script>
+    <script src="/assets/css/cheesymoviecounter.css"></script>
+
+
+</body>
+
+</html>

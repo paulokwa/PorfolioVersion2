@@ -1,0 +1,67 @@
+.bodybasket {
+
+  text-align: center;
+  min-height: 100vh;
+  background-image: url('/assets/img/basketballscoreboardpicture.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.row{
+padding-top: 10px;
+}
+
+#addButtonsHome,
+#addButtonsGuest
+{
+  
+  padding-top: 10px;
+
+}
+
+h2 {
+  padding: 5px 0 0 0;
+  margin: 0 auto;
+  width: 200px; 
+  height: 80px;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 75px;
+  font-weight: 400;
+  font-style: normal;
+  background: #0a0001;
+  color: #F94F6D;
+  border: 3px solid #9AABD8;
+}
+
+h3 {
+  margin-top: 80px;
+  font-family: 'Verdana';
+  color: white;
+  
+}
+
+
+
+
+
+#home-score-btn-1 {
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  color: #9AABD8;
+  box-sizing: border-box;
+  background: none;
+}
+
+#reset-btn {
+  font-size: 25px;
+  margin-top: 50px;
+  border: 2px solid #9AABD8;
+  border-radius: 91px;
+  color: #9AABD8;
+  box-sizing: border-box;
+  background: none;
+}
+

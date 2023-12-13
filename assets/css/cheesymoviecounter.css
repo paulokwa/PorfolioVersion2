@@ -1,0 +1,99 @@
+/* Cheesy Movie CSS */
+
+
+html,
+body {
+    height: 100%;
+   
+}
+
+body {
+    background-image: url("/assets/img/project/cheesymovie.jpg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+
+header {
+    margin-top: 250px;
+}
+
+
+h1 {
+    color: #e98a1d;
+    text-shadow: 0px 3px 0px black;
+    line-height: 24px;
+    font-family: 'Permanent Marker', cursive;
+    margin: 15px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    margin: 10;
+    
+}
+
+#increment-btn {
+    font-family: 'Permanent Marker', cursive;
+    background: darkred;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#save-btn {
+    font-family: 'Permanent Marker', cursive;
+    background: darkgreen;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#save-el{
+
+    color: #52473b;
+    
+    line-height: 24px;
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+#center-text {
+    text-align: center;
+}
+
+.border-center {
+    box-shadow: 10px 10px 20px 10px #0000ff;
+    background-color: #FB7213;
+    background: linear-gradient(to right, #FB7213 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #FB7213 100%);
+    border: 2px solid rgb(202, 105, 20);
+    margin: 3px auto;
+    padding: 20px;
+    
+}
+
+
+  #save-btn:hover {
+    background-color: #4CAF50;
+
+  }
+
+  #increment-btn:hover {
+    background-color: #4CAF50;
+  }
