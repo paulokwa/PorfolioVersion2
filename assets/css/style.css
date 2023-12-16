@@ -127,7 +127,64 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
   }
+
+  .addbreak992 {
+    margin-bottom: 90px;
+    
+  }
+
+  /*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+.interests .icon-box {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px;
+  background: #09203a;
+  transition: ease-in-out 0.3s;
+  text-align: center; 
 }
+
+.interests .icon-box i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 1;
+  margin-bottom: 15px; 
+}
+
+.interests .icon-box h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  color: #fff;
+}
+
+.interests .icon-box:hover {
+  background: #042b56eb;
+}
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .addbreak1200 {
+    margin-bottom: 35px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -731,6 +788,8 @@ section .container {
 
 
 
+
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1092,6 +1151,11 @@ section .container {
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Credits
